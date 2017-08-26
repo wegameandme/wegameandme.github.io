@@ -6,7 +6,6 @@ WEGAME site contribed to run some useful & interesting js knowledge and magic to
 
 lantern编译过程
 
-作者: ilanyu 时间: January 2, 2017 分类: 作品
 lantern不知道从哪个版本开始限制流量了, 但是好像自己编译的 lantern 没有这个限制。
 
 编译过程如下:
@@ -788,9 +787,7 @@ daocloud.io/ilanyu/lantern-build:master-48a1417 制作过程：
 下载 https://raw.githubusercontent.com/getlantern/lantern/devel/Dockerfile并 push 到自己刚创建的 repository。
 到 https://dashboard.daocloud.io/build-flows/new ，项目名称 lantern-builder，选择自己刚在 GitHub 创建的 repository，开始创建，选择分支：master，手工构建。
 到 https://dashboard.daocloud.io/packages 选择 lantern-builder，设置 -> 镜像访问控制 -> 公开。
-标签: none
 -------
 
 ### Support or Contact
 
-wegamelyh@126.com 
